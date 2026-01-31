@@ -9,14 +9,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PracticeFormPage extends BasePage {
 
-    // ОСНОВНЫЕ ПОЛЯ
+
     private final By firstName = By.id("firstName");
     private final By lastName = By.id("lastName");
     private final By email = By.id("userEmail");
     private final By genderMaleLabel = By.xpath("//label[@for='gender-radio-1']");
     private final By mobile = By.id("userNumber");
-
-    // ✅ HOBBIES - ЛЕЙБЛЫ (НЕ input!)
     private final By sportsLabel = By.xpath("//label[@for='hobbies-checkbox-1']");
     private final By readingLabel = By.xpath("//label[@for='hobbies-checkbox-2']");
 
